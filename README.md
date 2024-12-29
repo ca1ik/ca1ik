@@ -1,4 +1,4 @@
-![MasterHead](https://i.ibb.co/ysFDWm4/steptodown-com164134-removebg.png)
+![MasterHead](https://i.ibb.co/Xk4YsD8/Untitled-design.png)
 <h1 align="center">I'm Leviathan.</h1>
 <h3 align="center">CEng from [TR]</h3>
 
