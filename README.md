@@ -1,4 +1,4 @@
-[![MasterHead](https://cdn.hero.page/pfp/e81f1f48-5dd7-4682-8798-b5d3b5cd4069-mysterious-gentleman-anime-guy-pfp-styles-1.png)
+![MasterHead](https://i.ibb.co/ysFDWm4/steptodown-com164134-removebg.png)
 <h1 align="center">I'm Leviathan.</h1>
 <h3 align="center">CEng from [TR]</h3>
 
