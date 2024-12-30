@@ -34,5 +34,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&token=${{ secrets.GH_PAT }}" alt="Top Languages" />
 </p>
 
-### 🐍 Snake Contribution Animation
+### HIGHLIGHTS
 ![Snake animation](https://github.com/ca1ik/ca1ik/blob/output/github-contribution-grid-snake.svg)
+
