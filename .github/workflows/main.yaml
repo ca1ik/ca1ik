@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Günlük çalıştırma
   workflow_dispatch:
   push:
     branches:
@@ -13,11 +13,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate GitHub Stats with Private Contributions
-        uses: anuraghazra/github-readme-stats@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.tokenX }}
-
+      # GitHub Stats'ı bir dosyaya yazdır
+      - name: Generate GitHub Stats
+        run: |
+          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true"
+      
+      # README.md dosyasını güncelle
+      - name: Update README
+        run: |
+          echo "![GitHub Stats](github-stats.svg)" >> README.md
+      
+      # Commit ve Push işlemi
       - name: Commit and Push Changes
         run: |
           git config --local user.name "GitHub Actions"
@@ -25,3 +31,5 @@ jobs:
           git add README.md
           git commit -m "Update GitHub Stats with Private Contributions"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.tokenX }}
