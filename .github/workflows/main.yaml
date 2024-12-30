@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 0 * * *"  # Snake her gece 12:00'da güncellenecek.
+    - cron: "0 0 * * *"  # Snake animasyonu her gece 12:00'da çalışacak
   workflow_dispatch:
   push:
     branches:
@@ -16,16 +16,15 @@ jobs:
         with:
           github_user_name: ca1ik
           outputs: |
-            dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Animasyonu output branch'ine gönderme
+      # Dark temalı Snake animasyonu output branch'ine gönderme
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
