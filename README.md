@@ -1,5 +1,8 @@
-### ![MasterHead](https://i.ibb.co/Xk4YsD8/Untitled-design.png)
-<h1 align="center">I'm Leviathan.</h1>
+<div style="text-align: center;">
+  <img src="https://i.ibb.co/Xk4YsD8/Untitled-design.png" alt="MasterHead" />
+</div>
+
+<h1 align="center">Hi! I'm Leviathan.</h1>
 <h3 align="center">CEng from [TR]</h3>
 
 
@@ -29,18 +32,19 @@
 <table align="center">
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true&cache_seconds=600" alt="GitHub Stats" />
     </td>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true" alt="Streak Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true&cache_seconds=600" alt="Streak Stats" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&count_private=true" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&count_private=true&cache_seconds=600" alt="Top Languages" />
     </td>
   </tr>
 </table>
+
 
 
   ### { : )
