@@ -38,3 +38,4 @@
   ### { : )
 ![Snake animation](https://github.com/ca1ik/ca1ik/blob/output/github-contribution-grid-snake-dark.svg)
 
+![GitHub Stats](github-stats.svg)
