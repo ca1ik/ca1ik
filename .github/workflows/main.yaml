@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate GitHub Stats
+      - name: Generate Stats
         run: |
           curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true&cache_seconds=600"
           curl -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true&cache_seconds=600"
