@@ -16,7 +16,7 @@ jobs:
       - name: Generate GitHub Stats with Private Contributions
         uses: anuraghazra/github-readme-stats@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Commit and Push Changes
         run: |
