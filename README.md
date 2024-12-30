@@ -14,8 +14,6 @@
 - 🌱 I’m currently learning **Full Stack & Reverse Eng & WinForms.**
 
 - 💬 Ask me about **Everything abt coding/design/challange.**
-
-- 📫 How to reach me **halicalix@gmail.com**
  
 - ⚡ Fun fact **Just </ Smile >**
 
