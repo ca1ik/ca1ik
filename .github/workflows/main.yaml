@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 0 * * *"  # Snake animasyonu her gece 12:00'da çalışacak
+    - cron: "0 0 * * *"  # Her gece 12:00'da çalışacak
   workflow_dispatch:
   push:
     branches:
@@ -10,7 +10,6 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # Snake animasyonu oluşturma
       - name: Generate Snake animation
         uses: Platane/snk/svg-only@v3
         with:
@@ -20,7 +19,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Dark temalı Snake animasyonu output branch'ine gönderme
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
