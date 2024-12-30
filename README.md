@@ -29,7 +29,7 @@
 <div align="center">
   <div style="display: flex; justify-content: center;">
     <img src="https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&cache_seconds=1800" alt="GitHub Stats" style="margin-right: 10px;" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ca1ik" alt="Streak Stats" style="margin-left: 10px;" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&cache_seconds=1800" alt="Streak Stats" style="margin-left: 10px;" />
   </div>
   <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&cache_seconds=1800" alt="Top Languages" />
