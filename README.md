@@ -1,6 +1,9 @@
-<div style="text-align: center;">
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://i.ibb.co/Xk4YsD8/Untitled-design.png" alt="MasterHead" />
 </div>
+
+
 
 <h1 align="center">Hi! I'm Leviathan.</h1>
 <h3 align="center">CEng from [TR]</h3>
