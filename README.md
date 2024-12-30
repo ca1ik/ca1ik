@@ -1,6 +1,7 @@
-![MasterHead](https://i.ibb.co/Xk4YsD8/Untitled-design.png)
+### ![MasterHead](https://i.ibb.co/Xk4YsD8/Untitled-design.png)
 <h1 align="center">I'm Leviathan.</h1>
 <h3 align="center">CEng from [TR]</h3>
+
 
 - 🔭 I’m currently working on **Reverse Engineering.**
 
@@ -11,6 +12,7 @@
 - 📫 How to reach me **halicalix@gmail.com**
  
 - ⚡ Fun fact **Just </ Smile >**
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -25,13 +27,13 @@
 
 ### 📊 GitHub Stats
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&token=${{ secrets.GH_PAT }}" alt="GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&cache_seconds=1800" alt="GitHub Stats" />
 </p>
 <p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&token=${{ secrets.GH_PAT }}" alt="Streak Stats" />
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ca1ik" alt="Streak Stats" />
 </p>
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&token=${{ secrets.GH_PAT }}" alt="Top Languages" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&cache_seconds=1800" alt="Top Languages" />
 </p>
 
 ### HIGHLIGHTS
