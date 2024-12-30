@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 0 * * *"  # Günlük çalıştırma
+    - cron: "0 0 * * *"  # Günlük çalıştır
   workflow_dispatch:
   push:
     branches:
@@ -13,17 +13,21 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # GitHub Stats'ı bir dosyaya yazdır
+      # GitHub Stats'ı indirme ve private commitleri dahil etme
       - name: Generate GitHub Stats
         run: |
-          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true"
-      
-      # README.md dosyasını güncelle
+          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true&cache_seconds=1800"
+          curl -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true&cache_seconds=1800"
+          curl -o github-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&count_private=true&cache_seconds=1800"
+
+      # README.md dosyasını güncelleme
       - name: Update README
         run: |
-          echo "![GitHub Stats](github-stats.svg)" >> README.md
-      
-      # Commit ve Push işlemi
+          sed -i '/<img src=".*github-stats.svg".*>/c\<img src="github-stats.svg" />' README.md
+          sed -i '/<img src=".*github-streak.svg".*>/c\<img src="github-streak.svg" />' README.md
+          sed -i '/<img src=".*github-langs.svg".*>/c\<img src="github-langs.svg" />' README.md
+
+      # Değişiklikleri commit ve push et
       - name: Commit and Push Changes
         run: |
           git config --local user.name "GitHub Actions"
