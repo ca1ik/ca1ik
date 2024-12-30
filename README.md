@@ -54,9 +54,7 @@
 
 
 
- <div align="center">
-  ### { : )
-</div>
+<h1 align="center">{ : )
 
 ![Snake animation](https://github.com/ca1ik/ca1ik/blob/output/github-contribution-grid-snake-dark.svg)
 
