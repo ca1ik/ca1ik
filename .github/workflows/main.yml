@@ -1,6 +1,7 @@
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Her 10 dakikada bir çalıştır
+  - cron: "0 * * * *"  # Her saat başı çalıştır
+  # Her 10 dakikada bir çalıştır
   workflow_dispatch:
   push:
     branches:
@@ -15,9 +16,9 @@ jobs:
 
       - name: Generate Stats
         run: |
-          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true&cache_seconds=1800"
-          curl -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true&cache_seconds=1800"
-          curl -o github-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&count_private=true&cache_seconds=1800"
+          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true&cache_seconds=3600"
+          curl -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true&cache_seconds=3600"
+          curl -o github-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&count_private=true&cache_seconds=3600"
 
       - name: Update README
         run: |
@@ -32,5 +33,6 @@ jobs:
           git add README.md
           git commit -m "Update GitHub Stats with Private Contributions"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.tokenX }}
+          env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
