@@ -15,9 +15,9 @@ jobs:
 
       - name: Generate Stats
         run: |
-          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true&cache_seconds=600"
-          curl -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true&cache_seconds=600"
-          curl -o github-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&count_private=true&cache_seconds=600"
+          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=ca1ik&show_icons=true&locale=en&count_private=true&cache_seconds=1800"
+          curl -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=ca1ik&count_private=true&cache_seconds=1800"
+          curl -o github-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=ca1ik&layout=compact&langs_count=10&count_private=true&cache_seconds=1800"
 
       - name: Update README
         run: |
