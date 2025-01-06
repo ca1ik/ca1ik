@@ -1,0 +1,30 @@
+name: Update Snake Animation
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Her 30 dakikada bir çalışır
+  workflow_dispatch: # Manuel tetikleme seçeneği
+
+jobs:
+  update-snake:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Depoyu klonla
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 2. Snake generator betiğini çalıştır
+      - name: Generate Snake Animation
+        uses: Platane/snk@v2
+        with:
+          github_user_name: "ca1ik" # GitHub kullanıcı adınızı buraya yazın
+          output: "github-contribution-grid-snake-dark.svg" # Snake SVG dosyasını güncelle
+
+      # 3. Güncellenmiş dosyayı depoya ekle ve commit yap
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Update Snake animation"
+          git push
