@@ -59,5 +59,10 @@
 
 <h1 align="center">{ : )
 
-![Snake animation](https://github.com/ca1ik/ca1ik/blob/output/github-contribution-grid-snake-dark.svg)
+### Hi there 👋
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/ca1ik/ca1ik/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/ca1ik/ca1ik/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+
 
