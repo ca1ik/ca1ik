@@ -13,7 +13,7 @@
 
 - 🌱 I’m currently learning **Full Stack & Reverse Eng & WinForms.**
 
-- 💬 Ask me about **Everything abt coding/design/challange.**
+- 💬 Ask me abt **coding/design/challange.**
  
 - ⚡ Fun fact **Just </ Smile >**
 
