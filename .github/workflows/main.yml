@@ -1,7 +1,7 @@
 on:
   schedule:
-  - cron: "0 * * * *"  # Her saat başı çalıştır
-  # Her 10 dakikada bir çalıştır
+  - cron: "0 * * * *"  # Her saat
+  # Her 10
   workflow_dispatch:
   push:
     branches:
