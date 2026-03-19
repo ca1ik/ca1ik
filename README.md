@@ -36,7 +36,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cs,c,cpp,python,dart,flutter,js,ts,react,nodejs,html,css,mysql,git,aws,azure,blender,unity,unreal&perline=10" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=cs,c,cpp,python,dart,flutter,kotlin,js,ts,react,nodejs,html,css,mysql,git,aws,azure,blender,unity,unreal&perline=10" alt="Tech Stack" />
   </a>
 </p>
 
