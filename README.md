@@ -1,11 +1,11 @@
 <div align="center">
   <img src="https://i.ibb.co/Xk4YsD8/Untitled-design.png" alt="MasterHead" width="100%" />
 
-  <h1>Hi! I'm Leviathan. 👋</h1>
-  <h3>Computer Engineer (CE) from [TR]</h3>
+  <h1>Hi! I'm Natroff. 👋</h1>
+  <h3>AI Engineer (CE) from [TR]</h3>
   
   <p>
-    <b>Flutter Developer | AI Engineer | App & Automation Enthusiast</b>
+    <b>AI Engineer & Mobile Developer</b>
   </p>
 
   <p align="center">
@@ -22,13 +22,14 @@
 
 ---
 
-### 🚀 About Me
+### 🚀 Hi there, I'm an AI Engineer & Mobile Developer
 
-- 🔭 I’m currently working on **Reverse Engineering & Game Automation**.
-- 📱 I develop cross-platform applications and automation scripts using **Flutter, Dart, and Python**.
-- 🌱 I’m currently exploring **Full-Stack Development & WinForms**.
-- 💬 Ask me about **Coding, App Design, or Reverse Engineering Challenges**.
-- ⚡ Fun fact: **Just `</Smile>`**
+- 🧠 **Primary Focus:** Architecting AI-driven solutions, specializing in **LLMs, RAG pipelines, AI Native and Multi Agentic Systems**.
+- 📱 **Secondary Quest:** Building high-performance, cross-platform applications with **Flutter & Dart**.
+- ⚙️ **Tech Stack:** Python for backend/AI magic, Dart for pixel-perfect mobile UIs.
+- 🌱 **Currently Exploring:** Integrating AI into **Full-Stack Environments** & diving into **Dart Forms** for legacy/desktop optimization.
+- 💬 **Ask me about:** AI Orchestration, Flutter State Management, or AI Native Challenges.
+- ⚡ **Fun fact:** I can debug complex LLM hallucinations, but my default state is always just `</Smile>`.
 
 ---
 
