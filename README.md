@@ -5,7 +5,7 @@
   <h3>AI Engineer (CE) from [TR]</h3>
   
   <p>
-    <b>AI Engineer & Mobile Developer</b>
+    <b>AI Engineer & Quantitative Developer</b>
   </p>
 
   <p align="center">
