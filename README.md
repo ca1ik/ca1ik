@@ -1,11 +1,11 @@
 <div align="center">
   <img src="https://i.ibb.co/Xk4YsD8/Untitled-design.png" alt="MasterHead" width="100%" />
 
-  <h1>Hi! I'm Natroff. 👋</h1>
-  <h3>AI Engineer (CE) from [TR]</h3>
+  <h1>Hi! I'm Leviathan. 👋</h1>
+  <h3>AI-Native Engineer (CE) from [TR]</h3>
   
   <p>
-    <b>AI Engineer & Quantitative Developer</b>
+    <b>AI Engineer</b>
   </p>
 
   <p align="center">
@@ -22,7 +22,7 @@
 
 ---
 
-### 🚀 Hi there, I'm an AI Engineer & Mobile Developer
+### 🚀 Hi there, I'm an AI-Native Engineer & LLM Orchestrator
 
 - 🧠 **Primary Focus:** Architecting AI-driven solutions, specializing in **LLMs, RAG pipelines, AI Native and Multi Agentic Systems**.
 - 📱 **Secondary Quest:** Building high-performance, cross-platform applications with **Flutter & Dart**.
