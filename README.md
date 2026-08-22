@@ -5,7 +5,7 @@
   <h3>AI-Native Engineer (CE) from [TR]</h3>
   
   <p>
-    <b>AI Engineer</b>
+    <b>Calik AI - LLM Orchestration | Multi Agent Systems</b>
   </p>
 
   <p align="center">
@@ -22,7 +22,7 @@
 
 ---
 
-### 🚀 Hi there, I'm an AI-Native Engineer & LLM Orchestrator
+### Hi there, I'm an AI-Native Engineer & LLM Orchestrator on calik.io
 
 - 🧠 **Primary Focus:** Architecting AI-driven solutions, specializing in **LLMs, RAG pipelines, AI Native and Multi Agentic Systems**.
 - 📱 **Secondary Quest:** Building high-performance, cross-platform applications with **Flutter & Dart**.
